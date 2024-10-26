@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nabla:EDPT,EHLT@149,9&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Wet+Paint&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --gradient: linear-gradient(
+    90deg,
+    rgba(7, 4, 45, 1) 5%,
+    rgb(35, 35, 120) 50%,
+    rgba(151, 7, 167, 1) 100%
+  );
+  background: rgba(7, 4, 45, 1);
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(7, 4, 45);
+  background: var(--gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
